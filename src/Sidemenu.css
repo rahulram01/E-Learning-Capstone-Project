@@ -1,0 +1,42 @@
+.side {
+  background-color: #11235A; /* Set your desired background color */
+  position: fixed;
+  top: 80px; /* Set the height of your navbar */
+  left: -200px; /* Adjust the width of your sidemenu */
+  height: calc(100% - 80px); /* Calculate the remaining height */
+  z-index: 1000;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.side.open {
+  transform: translateX(200px); /* Adjust the width of your sidemenu */
+}
+
+.content {
+  height: 100%;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.side ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side li {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(216, 215, 214);
+}
+
+.side li:hover {
+  background-color: #153699;
+}

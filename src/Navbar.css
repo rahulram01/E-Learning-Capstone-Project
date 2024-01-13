@@ -1,0 +1,37 @@
+/* Reset default margin for body */
+body {
+    margin: 0;
+  }
+  
+  /* Create a flex container for the layout */
+  .container {
+    display: flex;
+  }
+  
+  /* Style for the Navbar */
+  .head {
+    background-color: #11235A; /* Set your desired background color */
+    padding: 10px;
+    color: white; /* Set your desired text color */
+    min-width: 100px; /* Set your desired minimum width */
+    height: 80px; /* Adjusted height to fit the logo */
+    display: flex; /* Add display flex for better alignment */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .logo {
+    width: auto; /* Allow the width to adjust proportionally */
+    height: 107px; /* Set your desired logo height */
+    margin-right: 10px; /* Add some margin for better spacing */
+  }
+  .toggle-btn {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .nav-items ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+

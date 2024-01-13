@@ -1,0 +1,9 @@
+/* ToggleArrow.css */
+.toggle-arrow {
+  position: relative;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  /* Add any other necessary styling */
+}

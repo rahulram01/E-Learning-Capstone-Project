@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  flex-direction: column; /* Make sure the layout takes the full height of the viewport */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+  .sidebar-open {
+    transform: translateX(0.5spx);
+  }
